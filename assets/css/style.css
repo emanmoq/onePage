@@ -522,6 +522,56 @@ margin:25px 0;
     background-repeat: no-repeat;
     background-size:cover;
 }
-#testimonial h4 {
+#testimonial h2 {
     color: #fff;
+}
+#blogs{
+    padding:85px 0;
+}
+.blogBox{
+    border: 1px solid #eee;
+  
+}
+.blogImg{
+    width:100%;
+    position: relative;
+}
+.blogImg .VideoIcon{
+    position: absolute;
+    width: 65px;
+    height: 65px;
+    right: 20px;
+    bottom: -33px;
+    text-align: center;
+    background: #222534;
+    border: 3px solid #fff;
+    border-radius: 100px;
+}
+.VideoIcon i{
+color:white;
+line-height:63px ;
+}
+
+.blog-body{
+    padding:15px;
+}
+.blog-body .blogDate{
+    font-size: 12px;
+    display: block;
+    margin-bottom: 5px;
+    text-transform: uppercase;
+    color: #45aed6;
+}
+.blog-body .blogtitle{
+    margin-top: 0;
+    font-size: 18px;
+    line-height: 1;
+    margin-bottom: 15px;
+}
+.blog-body .blogtitle a{
+    color: #64686d;
+    text-decoration: none;
+}
+.blog-body .blogtitle a:hover{
+    color: #45aed6;
 }
