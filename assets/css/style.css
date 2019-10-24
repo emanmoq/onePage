@@ -1,9 +1,13 @@
 body{
     font-family: 'Roboto', sans-serif;   
-     font-size: 16px;
+     font-size: 14px;
     color: #666;
     background-color: #fff;
     position: relative;
+    line-height: 26px;
+}
+img{
+    width:100%;
 }
 #MenuSec{
     background: rgba(255, 255, 255, 1);  
@@ -533,10 +537,9 @@ margin:25px 0;
   
 }
 .blogImg{
-    width:100%;
     position: relative;
 }
-.blogImg .VideoIcon{
+.blogImg .blogIcon{
     position: absolute;
     width: 65px;
     height: 65px;
@@ -547,9 +550,10 @@ margin:25px 0;
     border: 3px solid #fff;
     border-radius: 100px;
 }
-.VideoIcon i{
+.blogIcon i{
 color:white;
 line-height:63px ;
+font-size:20px;
 }
 
 .blog-body{
@@ -574,4 +578,134 @@ line-height:63px ;
 }
 .blog-body .blogtitle a:hover{
     color: #45aed6;
+}
+.blogBox.verticalBox .blogImg{
+    width:50%;
+}
+
+.BlogFooter{
+    margin-top: 20px;
+    border-top: 1px solid #eee;
+    padding-top: 15px;
+}
+.BlogFooter span{
+    display:inline-block;
+    margin-right:10px;
+    color:#999;
+}
+.BlogFooter span a{
+    color:#999;
+}
+.blogBox.verticalBox .blogIcon {
+    position: absolute;
+    top: 20px;
+    right: -10px;
+    width:40px;
+    height:40px;
+}
+.blogBox.verticalBox .blogIcon i{
+    line-height: 34px;
+    font-size:16px;
+}
+
+.blogBox.verticalBox {
+    margin-bottom:30px;
+}
+.contactHeader{
+    padding: 100px 0 50px;
+    background-image: linear-gradient(45deg, #2caab3 0%, #2c8cb3 100%);
+    color: #fff;
+
+}
+.contactHeader .heading h2{
+    color:white;
+}
+
+#contact{
+    position: relative;
+}
+.contactForm{
+    background: rgba(255, 255, 255, 0.8);
+    padding: 20px;
+    margin-top: 50px;
+}
+.contactForm h3{
+    margin-top:0;
+}
+.form-control{
+    box-shadow: none;
+}
+textarea{
+    resize: none;
+}
+.contactCont{
+    background: rgba(69, 174, 214, 0.3);
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    z-index: 1;
+}
+#footer{
+    padding: 30px 0;
+    color: white;
+    background: #2e2e2e;
+}
+
+.footerIcons{
+float:right;
+    list-style: none;
+    padding: 0;
+    margin:0;
+}
+.footerIcons li{
+display:inline-block;
+margin:0 7px;
+}
+#footer  a{
+    color:white;
+    text-decoration: none;
+}
+#footer a:hover{
+    color: #45aed6;
+}
+@media (max-width:767px){
+    .counterNum{
+        width:100px;
+        height:100px;
+        line-height: 100px;
+    }
+    .heading .sectionTitle{
+        font-size:26px;
+    }
+    .downloadTitle {
+        font-size:26px;
+    }
+    .img-thumbnail{
+width:40% !important;
+    }
+    .blogBox.verticalBox .blogImg{
+width:100%;
+    }
+    .blogBox.verticalBox .blogIcon {
+        top: auto;
+        right: 38px;
+        bottom:-18px;
+        width: 65px;
+        height: 65px;
+        
+    }
+    .blogBox.verticalBox .blogIcon i{
+        line-height: 64px;
+    }
+    .footerIcons{
+        float: none;
+    }
+    #footer{
+        text-align: center;
+    }
+    #counter strong{
+        font-size:11px;
+    }
 }
